@@ -103,9 +103,9 @@ app.delete('/products/:id', async (req, res) => {
 });
 
 app.get('/', (req, res) => {
-    res.send("Hello I am working my friend Supabase <3");
+    res.send("No Ar....");
 });
 
 app.listen(3000, () => {
-    console.log(`> Ready on http://localhost:3000`);
+    console.log(`Endereco:  http://localhost:3000`);
 });
